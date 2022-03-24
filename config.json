@@ -6,6 +6,7 @@
          "mainnet_end_point": "",
          "symbol":"MULTICHAIN",
          "name":"V99 Wallet",
+         "base_on_chain": "",
          "token_types":[
             
          ],
@@ -21,6 +22,7 @@
          "mainnet_end_point": "https://mainnet.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
          "symbol":"ETH",
          "name":"Ethereum",
+         "base_on_chain": "ETH",
          "token_types":[
             "ERC20",
             "ERC721"
@@ -41,6 +43,7 @@
          "mainnet_end_point": "https://bsc-dataseed.binance.org/",
          "symbol":"BSC",
          "name":"Binance Smart Chain",
+         "base_on_chain": "ETH",
          "token_types":[
             "BEP20","BEP721"
          ],
