@@ -1,54 +1,65 @@
 {
-"chains":[
-{
-"symbol":"MULTICHAIN",
-"name":"V99 Wallet",
-"token_types":[],
-"testnet_id": null,
-"logo":"",
-"tokens": [],
-},
-{
-"symbol":"ETH",
-"name":"Ethereum",
-"token_types":["ERC20", "ERC721"],
-"testnet_id":null,
-"logo":"",
-"tokens": [
-{
-"symbol":"ETH",
-"name":"Ethereum",
-"logo":"",
-}
-],
-},
-{
-"symbol":"BSC",
-"name":"Binance Smart Chain",
-"token_types":["BEP20"],
-"testnet_id":97,
-"logo":"",
-"tokens": [
-{
-"symbol":"BNB",
-"name":"Binance",
-"logo":"",
-}
-],
-},
-{
-"symbol":"BNB",
-"name":"Binance Chain",
-"token_types":["BEP2"],
-"testnet_id":null,
-"logo":"",
-"tokens": [
-{
-"symbol":"BNB",
-"name":"Binance",
-"logo":"",
-}
-],
-}
-],
+   "chains":[
+      {
+         "symbol":"MULTICHAIN",
+         "name":"V99 Wallet",
+         "token_types":[
+            
+         ],
+         "testnet_id":null,
+         "logo":"",
+         "tokens":[
+            
+         ]
+      },
+      {
+         "symbol":"ETH",
+         "name":"Ethereum",
+         "token_types":[
+            "ERC20",
+            "ERC721"
+         ],
+         "testnet_id":null,
+         "logo":"",
+         "tokens":[
+            {
+               "symbol":"ETH",
+               "name":"Ethereum",
+               "logo":""
+            }
+         ]
+      },
+      {
+         "symbol":"BSC",
+         "name":"Binance Smart Chain",
+         "token_types":[
+            "BEP20"
+         ],
+         "testnet_id":97,
+         "logo":"",
+         "tokens":[
+            {
+               "symbol":"BNB",
+               "name":"Binance",
+               "logo":""
+            }
+         ]
+      },
+      {
+         "symbol":"BNB",
+         "name":"Binance Chain",
+         "token_types":[
+            "BEP2"
+         ],
+         "testnet_id":null,
+         "logo":"",
+         "tokens":[
+            {
+               "symbol":"BNB",
+               "name":"Binance",
+               "logo":""
+            }
+         ]
+      }
+   ]
 }
