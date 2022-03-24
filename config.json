@@ -1,12 +1,14 @@
 {
    "chains":[
       {  "id": -99,
+         "testnet_id":null,
+         "testnet_end_point": "",
+         "mainnet_end_point": "",
          "symbol":"MULTICHAIN",
          "name":"V99 Wallet",
          "token_types":[
             
          ],
-         "testnet_id":null,
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
          "tokens":[
             
@@ -14,13 +16,15 @@
       },
       {
          "id": 1,
+         "testnet_id":null,
+         "testnet_end_point": "https://rinkeby.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
+         "mainnet_end_point": "https://mainnet.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
          "symbol":"ETH",
          "name":"Ethereum",
          "token_types":[
             "ERC20",
             "ERC721"
          ],
-         "testnet_id":null,
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
          "tokens":[
             {
@@ -32,12 +36,14 @@
       },
       {
          "id": 56,
+         "testnet_id":97,
+         "testnet_end_point": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+         "mainnet_end_point": "https://bsc-dataseed.binance.org/",
          "symbol":"BSC",
          "name":"Binance Smart Chain",
          "token_types":[
             "BEP20","BEP721"
          ],
-         "testnet_id":97,
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
          "tokens":[
             {
