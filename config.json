@@ -7,7 +7,7 @@
             
          ],
          "testnet_id":null,
-         "logo":"",
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
          "tokens":[
             
          ]
@@ -20,12 +20,12 @@
             "ERC721"
          ],
          "testnet_id":null,
-         "logo":"",
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
          "tokens":[
             {
                "symbol":"ETH",
                "name":"Ethereum",
-               "logo":""
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
             }
          ]
       },
@@ -36,12 +36,12 @@
             "BEP20"
          ],
          "testnet_id":97,
-         "logo":"",
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
          "tokens":[
             {
                "symbol":"BNB",
                "name":"Binance",
-               "logo":""
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
             }
          ]
       },
@@ -52,12 +52,12 @@
             "BEP2"
          ],
          "testnet_id":null,
-         "logo":"",
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png",
          "tokens":[
             {
                "symbol":"BNB",
                "name":"Binance",
-               "logo":""
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
             }
          ]
       }
