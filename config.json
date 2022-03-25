@@ -53,11 +53,6 @@
                "symbol":"BNB",
                "name":"Binance",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
-            },
-             {
-               "symbol":"BNB X",
-               "name":"Binance DEMO",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
             }
          ]
       }
