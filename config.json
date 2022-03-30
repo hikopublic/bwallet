@@ -60,7 +60,7 @@
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_link.png",
                "testnet_address": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
                "mainnet_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
-            },
+            }
          ]
       }
    ]
