@@ -59,7 +59,9 @@
         "ERC721"
       ],
       "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
-      "pairAddress": "0x64a839e01b053dbe431f1f3e37b2cce6fc55d7c2",
+      "pair_address": "0x64a839e01b053dbe431f1f3e37b2cce6fc55d7c2",
+      "router_address": "0x7a2d438f84e522731ce0fbfe49b88260fe581338",
+      "factory_address": "0x021212a8ab8e8bf3fa012bcb0c9fd8ed00627500",
       "tokens": [
         {
           "symbol": "ETH",
@@ -97,7 +99,9 @@
         "BEP721"
       ],
       "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
-      "pairAddress": "0xe80dad58882022bad13d751f255a8fb6823b2852",
+      "pair_address": "0xe80dad58882022bad13d751f255a8fb6823b2852",
+      "router_address": "0x88dcb9cebd6836392ceaea20923776269ad90d67",
+      "factory_address": "0x4fc03c7cd04c694e77624d95ba480a26b799caff",
       "tokens": [
         {
           "symbol": "BNB",
