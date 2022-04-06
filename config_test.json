@@ -64,6 +64,22 @@
           "symbol": "ETH",
           "name": "Ethereum",
           "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
+        },
+        {
+          "symbol": "USDT",
+          "name": "USDT",
+          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+          "testnet_address": "0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
+          "mainnet_address": "0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
+          "decimals": 18
+        },  
+        {
+          "symbol": "VNDT",
+          "name": "VNDT",
+          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+          "testnet_address": "0x1607618a6ca67e9bb94a8ce6760f44c97d646083",
+          "mainnet_address": "0x1607618a6ca67e9bb94a8ce6760f44c97d646083",
+          "decimals": 18
         }
       ]
     },
@@ -92,6 +108,22 @@
           "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_link.png",
           "testnet_address": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
           "mainnet_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
+        },
+        {
+          "symbol": "USDT",
+          "name": "USDT",
+          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+          "testnet_address": "0x4af9367d75ad03c441ca8a42551fb09313cd07a2",
+          "mainnet_address": "0x4af9367d75ad03c441ca8a42551fb09313cd07a2",
+          "decimals": 18
+        },  
+        {
+          "symbol": "VNDT",
+          "name": "VNDT",
+          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+          "testnet_address": "0x49d549aec8520d29a2071c071f6d605f533ab643",
+          "mainnet_address": "0x49d549aec8520d29a2071c071f6d605f533ab643",
+          "decimals": 18
         }
       ]
     }
