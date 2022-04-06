@@ -48,8 +48,8 @@
     },
     {
       "id": 1,
-      "testnet_id": 3,
-      "testnet_end_point": "https://ropsten.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
+      "testnet_id": 4,
+      "testnet_end_point": "https://rinkeby.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
       "mainnet_end_point": "https://mainnet.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
       "symbol": "ETH",
       "name": "Ethereum",
