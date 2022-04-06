@@ -59,6 +59,7 @@
         "ERC721"
       ],
       "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+      "pairAddress": "0x64a839e01b053dbe431f1f3e37b2cce6fc55d7c2",
       "tokens": [
         {
           "symbol": "ETH",
@@ -96,6 +97,7 @@
         "BEP721"
       ],
       "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
+      "pairAddress": "0xe80dad58882022bad13d751f255a8fb6823b2852",
       "tokens": [
         {
           "symbol": "BNB",
