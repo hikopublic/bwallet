@@ -1,99 +1,111 @@
 {
-  "gas_price": {
-    "bep20": {
-      "testnet": {
-        "standard": 10,
-        "fash": 11,
-        "superfash": 13,
-        "gaswar": 15,
-        "starwar": 20
+   "gas_price":{
+      "bep20":{
+         "testnet":{
+            "standard":10,
+            "fash":11,
+            "superfash":13,
+            "gaswar":15,
+            "starwar":20
+         },
+         "mainnet":{
+            "standard":5,
+            "fash":5.5,
+            "superfash":6.5,
+            "gaswar":8.5,
+            "starwar":15
+         }
       },
-      "mainnet": {
-        "standard": 5,
-        "fash": 5.5,
-        "superfash": 6.5,
-        "gaswar": 8.5,
-        "starwar": 15
+      "erc20":{
+         "testnet":{
+            "standard":4,
+            "fash":6,
+            "superfash":7,
+            "gaswar":8,
+            "starwar":10
+         },
+         "mainnet":{
+            "standard":1,
+            "fash":2,
+            "superfash":4,
+            "gaswar":5,
+            "starwar":8
+         }
       }
-    },
-    "erc20": {
-      "testnet": {
-        "standard": 4,
-        "fash": 6,
-        "superfash": 7,
-        "gaswar": 8,
-        "starwar": 10
+   },
+   "chains":[
+      {
+         "id":-99,
+         "testnet_id":null,
+         "testnet_end_point":"",
+         "mainnet_end_point":"",
+         "symbol":"MULTICHAIN",
+         "name":"V99 Wallet",
+         "base_on_chain":"",
+         "token_types":[
+            
+         ],
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
+         "tokens":[
+            
+         ]
       },
-      "mainnet": {
-        "standard": 1,
-        "fash": 2,
-        "superfash": 4,
-        "gaswar": 5,
-        "starwar": 8
+      {
+         "id":1,
+         "testnet_id":4,
+         "testnet_end_point":"https://rinkeby.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
+         "mainnet_end_point":"https://mainnet.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
+         "symbol":"ETH",
+         "name":"Ethereum",
+         "base_on_chain":"ETH",
+         "token_types":[
+            "ERC20",
+            "ERC721"
+         ],
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
+         "pair_address":"0x64a839e01b053dbe431f1f3e37b2cce6fc55d7c2",
+         "router_address":"0x7a2d438f84e522731ce0fbfe49b88260fe581338",
+         "factory_address":"0x021212a8ab8e8bf3fa012bcb0c9fd8ed00627500",
+         "tokens":[
+            {
+               "symbol":"ETH",
+               "name":"Ethereum",
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
+            }
+         ]
+      },
+      {
+         "id":56,
+         "testnet_id":97,
+         "testnet_end_point":"https://data-seed-prebsc-1-s1.binance.org:8545/",
+         "mainnet_end_point":"https://bsc-dataseed.binance.org/",
+         "symbol":"BSC",
+         "name":"Binance Smart Chain",
+         "base_on_chain":"ETH",
+         "token_types":[
+            "BEP20",
+            "BEP721"
+         ],
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
+         "pair_address":"0xe80dad58882022bad13d751f255a8fb6823b2852",
+         "router_address":"0x88dcb9cebd6836392ceaea20923776269ad90d67",
+         "factory_address":"0x4fc03c7cd04c694e77624d95ba480a26b799caff",
+         "tokens":[
+            {
+               "symbol":"BNB",
+               "name":"Binance",
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
+            },
+            {
+               "symbol":"LINK",
+               "name":"Binance-Peg ChainLink Token",
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_link.png",
+               "testnet_address":"0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
+               "mainnet_address":"0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
+            }
+         ]
       }
-    }
-  },
-  "chains": [
-    {
-      "id": -99,
-      "testnet_id": null,
-      "testnet_end_point": "",
-      "mainnet_end_point": "",
-      "symbol": "MULTICHAIN",
-      "name": "V99 Wallet",
-      "base_on_chain": "",
-      "token_types": [],
-      "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
-      "tokens": []
-    },
-    {
-      "id": 1,
-      "testnet_id": 3,
-      "testnet_end_point": "https://ropsten.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
-      "mainnet_end_point": "https://mainnet.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "base_on_chain": "ETH",
-      "token_types": [
-        "ERC20",
-        "ERC721"
-      ],
-      "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
-      "tokens": [
-        {
-          "symbol": "ETH",
-          "name": "Ethereum",
-          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
-        }
-      ]
-    },
-    {
-      "id": 56,
-      "testnet_id": 97,
-      "testnet_end_point": "https://data-seed-prebsc-1-s1.binance.org:8545/",
-      "mainnet_end_point": "https://bsc-dataseed.binance.org/",
-      "symbol": "BSC",
-      "name": "Binance Smart Chain",
-      "base_on_chain": "ETH",
-      "token_types": [
-        "BEP20",
-        "BEP721"
-      ],
-      "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bsc.png",
-      "tokens": [
-        {
-          "symbol": "BNB",
-          "name": "Binance",
-          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
-        },
-        {
-          "symbol": "LINK",
-          "name": "Binance-Peg ChainLink Token",
-          "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_link.png",
-          "testnet_address": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
-          "mainnet_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
-        }
-      ]
-    }
-  ]
+   ],
+   "slippage":0.03,
+   "currency": ["usd", "aud", "btc", "eth"]
 }
