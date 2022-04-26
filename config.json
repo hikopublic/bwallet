@@ -67,6 +67,14 @@
          "router_address":"0x7a2d438f84e522731ce0fbfe49b88260fe581338",
          "factory_address":"0x021212a8ab8e8bf3fa012bcb0c9fd8ed00627500",
          "tokens":[
+             {
+               "symbol":"USDT",
+               "name":"USDT",
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
+               "testnet_address":"0xdac17f958d2ee523a2206206994597c13d831ec7",
+               "mainnet_address":"0xdac17f958d2ee523a2206206994597c13d831ec7",
+               "decimals":18
+            },
             {
                "symbol":"ETH",
                "name":"Ethereum",
