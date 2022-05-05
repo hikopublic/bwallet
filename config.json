@@ -108,5 +108,5 @@
       }
    ],
    "slippage":0.03,
-   "currency": ["usd", "aud", "btc", "eth"]
+   "currency": ["vnd", "usd", "aud", "btc", "eth"]
 }
