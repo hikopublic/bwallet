@@ -70,12 +70,12 @@
              {
                "symbol": "VNDT",
                "name": "VNDT",
-               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png"
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt.png"
              },
              {
                "symbol": "VNDT Token",
                "name": "VNDT Token",
-               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt.png",
                "testnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
                "mainnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
                "decimals": 18
