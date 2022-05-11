@@ -67,14 +67,19 @@
          "router_address":"0x063F6E5F9e08B6B599CC6C2C50eae3EC5532Fc22",
          "factory_address":"0xdD245CA3dd819306E10495ed317cB36717b99295",
          "tokens":[
-            {
-               "symbol":"VNDT",
-               "name":"VNDT",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
-               "testnet_address":"0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
-               "mainnet_address":"0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
-               "decimals":18
-            }
+             {
+               "symbol": "VNDT",
+               "name": "VNDT",
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png"
+             },
+             {
+               "symbol": "VNDT Token",
+               "name": "VNDT Token",
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
+               "testnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
+               "mainnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
+               "decimals": 18
+             }
          ]
       },
       {
