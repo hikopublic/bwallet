@@ -73,8 +73,8 @@
                "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png"
              },
              {
-               "symbol": "VNDT_Token",
-               "name": "VNDT_Token",
+               "symbol": "VNDTT",
+               "name": "VNDTT",
                "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png",
                "testnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
                "mainnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
