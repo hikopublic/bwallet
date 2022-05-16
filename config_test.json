@@ -51,6 +51,38 @@
          ]
       },
       {
+         "id":2223,
+         "testnet_id":2223,
+         "testnet_end_point":"https://bc.vcex.xyz",
+         "mainnet_end_point":"https://bc.vcex.xyz",
+         "symbol":"VNDT",
+         "name":"Vchain",
+         "base_on_chain":"ETH",
+         "token_types":[
+            "BEP20",
+            "BEP721"
+         ],
+         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
+         "pair_address":"0xc48d94e9982959AB081c010230F95c2aC70Ac942",
+         "router_address":"0x063F6E5F9e08B6B599CC6C2C50eae3EC5532Fc22",
+         "factory_address":"0xdD245CA3dd819306E10495ed317cB36717b99295",
+         "tokens":[
+             {
+               "symbol": "VNDT",
+               "name": "VNDT",
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png"
+             },
+             {
+               "symbol": "VNDTT",
+               "name": "VNDTT",
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png",
+               "testnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
+               "mainnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
+               "decimals": 18
+             }
+         ]
+      },
+      {
          "id":1,
          "testnet_id":4,
          "testnet_end_point":"https://rinkeby.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
@@ -67,26 +99,18 @@
          "router_address":"0x7a2d438f84e522731ce0fbfe49b88260fe581338",
          "factory_address":"0x021212a8ab8e8bf3fa012bcb0c9fd8ed00627500",
          "tokens":[
+             {
+               "symbol":"USDT",
+               "name":"USDT",
+               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
+               "testnet_address":"0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
+               "mainnet_address":"0xdac17f958d2ee523a2206206994597c13d831ec7",
+               "decimals":18
+            },
             {
                "symbol":"ETH",
                "name":"Ethereum",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
-            },
-            {
-               "symbol":"U_ERC20",
-               "name":"USDT_ERC20",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
-               "testnet_address":"0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
-               "mainnet_address":"0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
-               "decimals":18
-            },
-            {
-               "symbol":"V_ERC20",
-               "name":"VNDT_ERC20",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt.png",
-               "testnet_address":"0x1607618a6ca67e9bb94a8ce6760f44c97d646083",
-               "mainnet_address":"0x1607618a6ca67e9bb94a8ce6760f44c97d646083",
-               "decimals":18
             }
          ]
       },
@@ -111,33 +135,10 @@
                "symbol":"BNB",
                "name":"Binance",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
-            },
-            {
-               "symbol":"LINK",
-               "name":"Binance-Peg ChainLink Token",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_link.png",
-               "testnet_address":"0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
-               "mainnet_address":"0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
-            },
-            {
-               "symbol":"USDT_BEP20",
-               "name":"USDT_BEP20",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
-               "testnet_address":"0x4af9367d75ad03c441ca8a42551fb09313cd07a2",
-               "mainnet_address":"0x4af9367d75ad03c441ca8a42551fb09313cd07a2",
-               "decimals":18
-            },
-            {
-               "symbol":"VNDT_BEP20",
-               "name":"VNDT_BEP20",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt.png",
-               "testnet_address":"0x49d549aec8520d29a2071c071f6d605f533ab643",
-               "mainnet_address":"0x49d549aec8520d29a2071c071f6d605f533ab643",
-               "decimals":18
             }
          ]
       }
    ],
    "slippage":0.03,
-   "currency": ["usd", "aud", "btc", "eth"]
+   "currency": ["vnd", "usd", "aud", "btc", "eth"]
 }
