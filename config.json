@@ -51,38 +51,6 @@
          ]
       },
       {
-         "id":2223,
-         "testnet_id":2223,
-         "testnet_end_point":"https://bc.vcex.xyz",
-         "mainnet_end_point":"https://bc.vcex.xyz",
-         "symbol":"VNDT",
-         "name":"Vchain",
-         "base_on_chain":"ETH",
-         "token_types":[
-            "BEP20",
-            "BEP721"
-         ],
-         "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
-         "pair_address":"0xc48d94e9982959AB081c010230F95c2aC70Ac942",
-         "router_address":"0x063F6E5F9e08B6B599CC6C2C50eae3EC5532Fc22",
-         "factory_address":"0xdD245CA3dd819306E10495ed317cB36717b99295",
-         "tokens":[
-             {
-               "symbol": "VNDT",
-               "name": "VNDT",
-               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png"
-             },
-             {
-               "symbol": "VNDTT",
-               "name": "VNDTT",
-               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png",
-               "testnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
-               "mainnet_address": "0xb203ad8902827cF5d1cF2c65ad647910F94c303D",
-               "decimals": 18
-             }
-         ]
-      },
-      {
          "id":1,
          "testnet_id":4,
          "testnet_end_point":"https://rinkeby.infura.io/v3/51f4d9c7ae3643b1b6c9edc0bbf65b36",
