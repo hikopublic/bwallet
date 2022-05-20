@@ -70,6 +70,7 @@
              {
                "symbol":"USDT",
                "name":"USDT",
+               "coingecko_id":"tether",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
                "testnet_address":"0xEa3612373d22f1BF62e5C44f625a757c8Bb1dd8d",
                "mainnet_address":"0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -78,6 +79,7 @@
             {
                "symbol":"ETH",
                "name":"Ethereum",
+               "coingecko_id":"ethereum",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
             }
          ]
@@ -102,6 +104,7 @@
             {
                "symbol":"BNB",
                "name":"Binance",
+               "coingecko_id":"binancecoin",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
             }
          ]
