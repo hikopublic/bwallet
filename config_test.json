@@ -84,8 +84,8 @@
                "symbol": "vUSD",
                "name": "vUSD",
                "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_usdt.png",
-               "testnet_address": "0x62f20695446c19CC49b194C619Ea60Bed1181761",
-               "mainnet_address": "0x62f20695446c19CC49b194C619Ea60Bed1181761",
+               "testnet_address": "0x36d046660edacb79198ac289965bec506b5e7d22",
+               "mainnet_address": "0x36d046660edacb79198ac289965bec506b5e7d22",
                "decimals": 18
              }
          ]
