@@ -136,15 +136,6 @@
                "symbol":"BNB",
                "name":"Binance",
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
-            },
-            {
-               "symbol":"BUSD",
-               "name":"Binance-Peg BUSD",
-               "coingecko_id":"binance-usd",
-               "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_busd.png",
-               "testnet_address":"0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-               "mainnet_address":"0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-               "decimals":18
             }
          ]
       }
