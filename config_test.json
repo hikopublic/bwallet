@@ -63,15 +63,17 @@
             "BEP721"
          ],
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_v99.png",
-         "pair_address":"0xc48d94e9982959AB081c010230F95c2aC70Ac942",
-         "router_address":"0x063F6E5F9e08B6B599CC6C2C50eae3EC5532Fc22",
+         "pair_address":"0x8A526750b95357FAB2051453B965aE52065C5ede",
+         "router_address":"0xFD060FAd68FF4c46a5c5AD47573f00B58E0b46a9",
          "factory_address":"0xdD245CA3dd819306E10495ed317cB36717b99295",
-         "wrappedTokenAddress": "0x3806903DcEcd5B9F5c08C7d413ddF57417dacAF0",
          "tokens":[
              {
                "symbol": "VNDT",
                "name": "VNDT",
-               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png"
+               "logo": "https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png",
+               "is_native": true,
+               "wrapped_address_mainnet": "0x3806903DcEcd5B9F5c08C7d413ddF57417dacAF0",
+               "wrapped_address_testnet": "0x3806903DcEcd5B9F5c08C7d413ddF57417dacAF0"
              },
              {
                "symbol": "vUSD",
