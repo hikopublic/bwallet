@@ -59,8 +59,7 @@
          "name":"Vchain",
          "base_on_chain":"ETH",
          "token_types":[
-            "BEP20",
-            "BEP721"
+            "ERC20"
          ],
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_vndt2.png",
          "pair_address":"0x8A526750b95357FAB2051453B965aE52065C5ede",
@@ -94,8 +93,7 @@
          "name":"Ethereum",
          "base_on_chain":"ETH",
          "token_types":[
-            "ERC20",
-            "ERC721"
+            "ERC20"
          ],
          "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png",
          "pair_address":"0x64a839e01b053dbe431f1f3e37b2cce6fc55d7c2",
