@@ -113,6 +113,7 @@
                "symbol":"ETH",
                "name":"Ethereum",
                "coingecko_id":"ethereum",
+               "is_native": true,
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_eth.png"
             }
          ]
@@ -138,6 +139,7 @@
                "symbol":"BNB",
                "name":"Binance",
                "coingecko_id":"binancecoin",
+               "is_native": true,
                "logo":"https://raw.githubusercontent.com/hikopublic/bwallet/main/assets/coin/ic_bnb.png"
             },
             {
